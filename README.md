@@ -1,9 +1,12 @@
 # KATA4
 
 #### - OBJETIVOS
-La tercera kata consolida la transformación de datos justo después de trabajar con InputStream
-y OutputStream. La idea principal de esta práctica es demostrar el uso del protocolo HTTP y el como se deserializa en esta ocasión un formato JSON
-en un objeto.
+El objetivo de esta cuarta kata es entender una URL como frontera
+de comunicación con un servicio HTTP y construir un cliente pequeño, explícito y verificable.
+El objetivo es separar la interfaz que pide la operación, el puerto de servicio que expresa lo
+que necesita la aplicación, el adaptador HTTP que realiza la petición, el parser o mapper de
+respuesta y la presentación del resultado.
+
 
 #### - CÓMO COMPILAR Y EJECUTAR
 En esta ocasión basta con simplemente estar en la clase `Main` que se encuentra en el paquete `software.ulpgc.katas` y en este 
@@ -11,13 +14,12 @@ clickar en el botón de runear que tiene el propio IntelliJ o usar shift + F10, 
 
 #### - DEPENDENCIAS Y VERSION DE JDK
 - **Build System:** Maven
-- **JDK:** openjdk-26
-- **Dependencies:** Gson
+- **JDK:** openjdk-27
+- **Dependencies:** Gson (librería) y Javalin (framework)
 
 #### - ESTRUCTURA DE LA ENTREGA Y CLASES PRINCIPALES
-- **Estructura:** La estándar de Maven
+- **Estructura:** Arquitectura hexagonal / Arquitectura de puertos
 ```
-Kata3/
 kata4/
 ├── .idea/
 ├── .mvn/
@@ -62,12 +64,11 @@ kata4/
 - **`Main`**: conecta todas las piezas y ejecuta la aplicación.
 
 #### - FLUJO DE GIT USADO
-Se ha seguido una versión simplificada del modelo de flujo Gitflow, utilizando principalmente dos ramas: `main` como rama estable/principal y `develop` como 
-rama de trabajo donde se integraron la mayoría de los commits.
+En esta práctica no se realizó ningún flujo de git. Todos los commits fueron realizados desde la propia rama de master.
 
 Para clonar el repositorio se puede usar en la terminal del IntelliJ el comando `git clone`, pero también se puede hacer desde la propia interfaz antes de crear un proyecto.
 
 ## ENLACE AL VIDEO EXPLICATIVO
-[https://youtu.be/UBGOnvGSxBQ](https://youtu.be/tDLPOrKmnxM)
+[https://youtu.be/UBGOnvGSxBQ](https://youtu.be/MQ1_x-MEJ8U)
 
-En el video explicativo se muestra como se hizo la kata repitiendo los pasos que realizó el profesor en clases.
+En el video explicativo se muestra como se hizo la kata usando los conceptos aprendidos en clase.
