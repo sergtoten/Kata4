@@ -1,11 +1,8 @@
 # KATA4
 
 #### - OBJETIVOS
-El objetivo de esta cuarta kata es entender una URL como frontera
-de comunicación con un servicio HTTP y construir un cliente pequeño, explícito y verificable.
-El objetivo es separar la interfaz que pide la operación, el puerto de servicio que expresa lo
-que necesita la aplicación, el adaptador HTTP que realiza la petición, el parser o mapper de
-respuesta y la presentación del resultado.
+El objetivo de esta cuarta kata es Aprender a exponer operaciones Java como servicio web con Javalin. Cada manejador recibe
+los datos de la petición, llama al caso de uso y prepara la respuesta HTTP.
 
 
 #### - CÓMO COMPILAR Y EJECUTAR
