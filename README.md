@@ -66,6 +66,6 @@ En esta práctica no se realizó ningún flujo de git. Todos los commits fueron 
 Para clonar el repositorio se puede usar en la terminal del IntelliJ el comando `git clone`, pero también se puede hacer desde la propia interfaz antes de crear un proyecto.
 
 ## ENLACE AL VIDEO EXPLICATIVO
-[https://youtu.be/UBGOnvGSxBQ](https://youtu.be/MQ1_x-MEJ8U)
+[https://youtu.be/MQ1_x-MEJ8U](https://youtu.be/MQ1_x-MEJ8U)
 
 En el video explicativo se muestra como se hizo la kata usando los conceptos aprendidos en clase.
